@@ -9,9 +9,8 @@
 
 BOARD_VENDOR := lenovo
 
-DEVICE_PATH := device/lenovo/kunlun2
+DEVICE_PATH := device/lenovo/jd2019
 
 # Kernel
-TARGET_KERNEL_CONFIG := kunlun2_defconfig
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/lenovo/kunlun2
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/lenovo/jd2019/prebuilt/Image.gz-dtb
