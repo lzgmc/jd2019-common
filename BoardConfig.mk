@@ -14,3 +14,4 @@ DEVICE_PATH := device/lenovo/jd2019
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_PREBUILT_KERNEL := device/lenovo/jd2019/prebuilt/Image.gz-dtb
+BOARD_PREBUILT_DTBOIMAGE := device/lenovo/jd2019/prebuilt/dtbo.img
